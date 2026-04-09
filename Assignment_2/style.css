@@ -1,0 +1,99 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#fff;
+}
+
+/* Navbar */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#fff;
+}
+
+.logo{
+color:#ff5722;
+}
+
+.menu{
+display:flex;
+list-style:none;
+}
+
+.menu li{
+margin:0 15px;
+}
+
+.menu a{
+text-decoration:none;
+color:#333;
+}
+
+.btn{
+background:#ff5722;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Hero */
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px 80px;
+}
+
+.hero-text h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+.hero-text p{
+margin-bottom:20px;
+}
+
+/* Menu Section */
+
+.menu-section{
+text-align:center;
+padding:50px;
+}
+
+.food-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.food-card{
+background:#f5f5f5;
+padding:20px;
+border-radius:10px;
+width:200px;
+}
+
+.food-card img{
+width:100%;
+border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+margin-top:40px;
+}
